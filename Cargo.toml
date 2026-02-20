@@ -7,8 +7,8 @@ license = "MIT"
 
 [dependencies]
 tonic = "0.14.3"
-tonic-prost = "*"
 prost = "0.14.3"
+tonic-prost = "0.14.5"
 
 [build-dependencies]
 tonic-prost-build = "0.14.3"
