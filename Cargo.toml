@@ -2,6 +2,8 @@
 name = "orderbook-proto"
 version = "0.1.0"
 edition = "2024"
+description = "protobuf definations for grpc-trading-server"
+license = "MIT"
 
 [dependencies]
 tonic = "0.14.3"
