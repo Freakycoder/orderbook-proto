@@ -9,14 +9,14 @@ service OrderBook{
 }
 
 message ModifyOrderRequest{
-    String order_id = 1;
+    string order_id = 1;
     optional uint32 new_price = 2;
     optional uint32 new_quantity = 3;
     bool side = 4;
 }
 
 message ModifyOrderResponse{
-    String order_id = 1;
+    string order_id = 1;
     uint32 status = 2;
     optional string output = 3;
 }
