@@ -43,7 +43,6 @@ enum OrderType{
 }
 
 message CancelOrderRequest{
-    string user_id = 1;
     string engine_order_id = 2;
 }
 
