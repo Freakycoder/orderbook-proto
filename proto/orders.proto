@@ -43,12 +43,13 @@ enum OrderType{
 }
 
 message CancelOrderRequest{
-    string engine_order_id = 2;
+    string order_id = 1;
 }
 
 message CancelOrderResponse{
-    uint32 status = 1;
-    optional string cause = 2;
+    string order_id = 1;
+    uint32 status = 2;
+    optional string cause = 3;
 }
 
 message BookRequest{
